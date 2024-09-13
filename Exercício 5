@@ -1,0 +1,15 @@
+let nota1 = 63;
+let nota2 = 87;
+let nota3 = 43;
+
+nota1 = nota1*2;
+nota2 = nota2*3;
+nota3 = nota3*5;
+
+let soma_das_notas = nota1 + nota2 + nota3;
+
+let soma_dos_pesos = 2 + 3 + 5;
+
+let divi = soma_das_notas / soma_dos_pesos;
+
+console.log ("A media ponderada: " + divi);

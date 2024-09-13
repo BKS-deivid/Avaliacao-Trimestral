@@ -1,0 +1,10 @@
+let custo_fabrica = 74000;
+let distribuidor = 0.28;
+let imposto = 0.45;
+
+let valorDis= custo_fabrica*distribuidor;
+let valorImp = custo_fabrica*imposto;
+
+let custo_consumidor = custo_fabrica + valorDis + valorImp;
+
+console.log ("O custo ao consumidor é: " + custo_consumidor);

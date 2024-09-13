@@ -1,0 +1,13 @@
+let a = 4;
+let b = 6;
+let d = 15;
+let e = 5;
+
+let equação1 = a + b;
+let equação2 = d + e;
+
+let x = equação1*e - b*equação2 / a*e - b*d;
+let y = a*equação2 - equação1*d / a*e - b*d;
+
+console.log ("valor de X é: " + x);
+console.log ("valor de Y é: " + y);

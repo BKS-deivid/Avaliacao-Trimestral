@@ -1,0 +1,9 @@
+const segundos = 25200;
+
+const horas = segundos / 3600;
+const minutos = segundos / 60;
+
+console.log ("O tempo de duração do evento é: ");
+console.log (horas + "      horas");
+console.log (minutos + "    minutos");
+console.log (segundos + "  segundos");

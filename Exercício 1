@@ -1,0 +1,9 @@
+let x1 =57;
+let y1 =33;
+
+let x2 =91;
+let y2 =11;
+
+const soma = Math.sqrt( Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
+
+console.log ("A distância é:"+ soma);

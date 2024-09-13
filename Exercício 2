@@ -1,0 +1,10 @@
+let A=18;
+let B=4;
+let C=6;
+
+let R = Math.pow (A+B,2);
+let S = Math.pow (B+C,2);
+
+let D = (R+S)/2;
+
+console.log ("D = "+ D);

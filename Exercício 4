@@ -1,0 +1,7 @@
+let idade = 18;
+let meses = 223;
+let dias = 6791;
+
+let anos = Math.trunc((dias/365));
+
+console.log ("A idade em dias: " + dias);
